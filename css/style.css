@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 1440;
+    height: 900;
+}
+
+body{
+    width: 90%;
+    margin: auto;
+    min-width: 1100px;
+    min-height: 600px;
+ 
+}
+
+header{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.left-block{
+    width: 132px;
+    height: 852px;
+    background: #000000;
+    border-radius: 24px;
+}
+
+.left-block img{
+    width: 70%;
+    padding: 25px 20px 20px 20px;
+    margin-left: 32px;
+}
+
+.icons{
+    margin-top: 75px;
+}
+
+.icons li{
+    list-style: none;
+}
+
+.icons li img{
+    width: 50%;
+}
+
+.icons li:last-child{
+    padding-top: 225px;
+}
+
+.block-hello{
+    
+    width: 620px;
+    height: 160px;
+    background: #F5F5F7;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.hello-wrapp{
+    text-align: left;
+    margin-left: 32px;
+    margin-right: 120px;
+}
+
+.hello-wrapp h1{
+    font-family: Baloo Bhai;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 57px;
+    color: #000000;
+}
+
+.hello-wrapp h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.header-img img{
+    width: 30%;
+    position: absolute;
+    bottom: 1%;
+}
+
+.spanish-wrapp{
+    background: #F5F5F7;
+    border-radius: 14px;
+    width: 500.26px;
+    height: 80px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.spanish-wrapp button{
+    background: #000000;
+    border-radius: 8px;
+   font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding: 13px 35px;
+    border: none;
+    margin-left: 50px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    margin-right: 35px;
+}
+
+.title h4{
+    font-family: Baloo Bhai;
+}
+
+.title p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.spanish{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.spanish img{
+    margin-left: 17px;
+}
+
+.spanish-icon img{
+    margin-right: 15px;
+    margin-left: 9px;
+}
+
+.courses{
+    font-family: Baloo Bhai;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 38px;
+    color: #000000;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.all-courses .li-courses{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 17px;
+}
+
+.all-courses .li-courses li{
+    list-style: none;
+    margin-right: 30px;
+    font-family: Baloo Bhai;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #b3b3b3;
+}
+
+.all-courses .li-courses li:first-child{
+    color: #000000;
+}
+
+.courses-wrapp{
+    background: #F5F5F7;
+    border-radius: 14px;
+    width: 620px;
+    height: 80px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses-wrapp button{
+    background: #000000;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    border: none;
+    color: #FFFFFF;
+    padding: 12px 24px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background: #F5F5F7;
+    border-radius: 8px; 
+    border: none;
+}
+
+.block-search{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 438.9px;
+    height: 43px;
+    margin-top: 50px;
+    margin-left: 64px;
+}
+
+.search-wrapp img{
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+
+.inf{
+    display: flex;
+    width: 439.78px;
+    height: 106.05px;
+}
+
+.numeric1,
+.numeric2{
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+    margin-left: 64px;
+    /* justify-content: space-evenly; */
+}
+
+.course{
+    width: 5%;
+}
+
+.numeric1>p,
+.numeric2>p{
+    font-family: Baloo Bhai;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    color: #000000;
+}
+
+.numeric1{
+    padding-right: 21px;
+}
+
+.numeric1 p,
+.numeric2 p{
+    padding-left: 25px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.numeric1,
+.numeric2{
+    background: #F5F5F7;
+    border-radius: 14px;
+    padding-left: 10px;
+}
+
+.course>p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.static-title{
+    font-family: Baloo Bhai;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    color: #000000;
+    margin-left: 64px;
+    margin-top: 30px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 439.78px;
+    margin-left: 64px;
+    align-items: center;
+
+}
+
+.nav{
+    display: flex;
+}
+
+.nav li{
+    list-style: none;
+    margin-right: 23px;
+    margin-top: 16px;
+    font-family: Baloo Bhai;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.nav li:last-child{
+    color: #b3b3b3;
+}
+
+.list select{
+    background: #F5F5F7;
+    border-radius: 8px;
+    padding: 9px 28px;
+    border: none;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 15px;
+
+/* Black */
+
+color: #000000;
+}
+
+.grap{
+    margin-left: 50px;
+    margin-top: 32px;
+}
+
+.last-block{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    background: #F5F5F7;
+    border-radius: 14px;
+    width: 440px;
+    height: 193px;
+    align-items: center;
+}
+
+.last-block-wrapp{
+    display: flex;
+    flex-direction: column;
+    margin-right: 65px;
+    margin-left: 25px;
+}
+
+.last-block-wrapp button{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 8px;
+    border: none;
+    margin-top: 25px;
+    padding: 13px 24px;
+}
+
+.last-block-wrapp h1{
+    font-family: Baloo Bhai;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 38px;
+
+/* Black */
+
+color: #000000;
+}
+
+.last-block-wrapp p{
+    width: 179px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
