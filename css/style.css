@@ -2,15 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 1440;
-    height: 900;
 }
 
 body{
     width: 90%;
     margin: auto;
+    width: 100%;
     min-width: 1100px;
     min-height: 600px;
+    padding-left: 30px;
  
 }
 
@@ -21,7 +21,8 @@ header{
 }
 
 .left-block{
-    width: 132px;
+    width: 100%;
+    max-width: 132px;
     height: 852px;
     background: #000000;
     border-radius: 24px;
@@ -50,8 +51,8 @@ header{
 }
 
 .block-hello{
-    
-    width: 620px;
+    width: 100%;
+    max-width: 620px;
     height: 160px;
     background: #F5F5F7;
     border-radius: 14px;
@@ -92,20 +93,21 @@ header{
     bottom: 1%;
 }
 
-.spanish-wrapp{
+.my-courses-wrapp{
     background: #F5F5F7;
     border-radius: 14px;
-    width: 500.26px;
+    width: 100%;
+    max-width: 500.26px;
     height: 80px;
     margin-left: 50px;
     display: flex;
     align-items: center;
 }
 
-.spanish-wrapp button{
+.my-courses-wrapp button{
     background: #000000;
     border-radius: 8px;
-   font-family: Roboto;
+    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 13px;
@@ -135,17 +137,17 @@ header{
     color: #000000;
 }
 
-.spanish{
+.my-courses{
     display: flex;
     align-items: center;
     margin-top: 25px;
 }
 
-.spanish img{
+.my-courses img{
     margin-left: 17px;
 }
 
-.spanish-icon img{
+.my-courses-icon img{
     margin-right: 15px;
     margin-left: 9px;
 }
@@ -185,7 +187,8 @@ header{
 .courses-wrapp{
     background: #F5F5F7;
     border-radius: 14px;
-    width: 620px;
+    width: 100%;
+    max-width: 620px;
     height: 80px;
     margin-left: 50px;
     display: flex;
@@ -219,11 +222,28 @@ input{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 438.9px;
+    width: 100%;
+    max-width: 438.9px;
     height: 43px;
     margin-top: 50px;
     margin-left: 64px;
 }
+
+.bell{
+    position: relative;
+}
+
+.bell img:last-child{
+position: absolute;
+top: -8px;
+left: 15px;
+
+}
+
+/* .block-search img.bell::after{
+    background-image: url(../img/bellAdd.png);
+} */
+
 
 .search-wrapp img{
     position: absolute;
@@ -233,7 +253,8 @@ input{
 
 .inf{
     display: flex;
-    width: 439.78px;
+    width: 100%;
+    max-width: 439.78px;
     height: 106.05px;
 }
 
@@ -300,7 +321,8 @@ input{
 .list{
     display: flex;
     justify-content: space-between;
-    width: 439.78px;
+    width: 100%;
+    max-width: 439.78px;
     margin-left: 64px;
     align-items: center;
 
@@ -332,14 +354,11 @@ input{
     padding: 9px 28px;
     border: none;
     font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 13px;
-line-height: 15px;
-
-/* Black */
-
-color: #000000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
 }
 
 .grap{
@@ -353,7 +372,8 @@ color: #000000;
     margin-top: 50px;
     background: #F5F5F7;
     border-radius: 14px;
-    width: 440px;
+    width: 100%;
+    max-width: 440px;
     height: 193px;
     align-items: center;
 }
